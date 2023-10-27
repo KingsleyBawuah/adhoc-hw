@@ -1,0 +1,16 @@
+Instructions:
+
+1. Navigate to project folder in your terminal.
+2. Run `npm i`
+3. Run `node index.js`
+
+Prerequisites:
+* Install the latest version of node.js
+
+Things that I could of improved on with more time:
+* Performance, there are a couple instances where I loop over larger sets of data multiple times. I could optimize the code to not do this.
+* If this was a real ticket I'd speak to product about what I should do for zip codes that cross multiple state lines.
+* Obviously each of these functions require thorough unit testing.
+* I'd love to test this on a much larger data set.
+* Some of the conditional statements are quite verbose.
+* Console.log calls stdout internally but adds a newline. Depending on needs I could call stdout directly to avoid the trailing newline at the end of the results.
